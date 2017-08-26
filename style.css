@@ -1,0 +1,84 @@
+		*{
+			margin: 0;
+			padding: 0;
+			border: 0;
+		}
+
+		body{
+			background-image: url("images/background.jpg");
+			background-repeat: no-repeat;
+		}
+
+		h1{
+			padding: 1%;
+			font-size: 24px;
+			color: #fbe6bd;
+			text-align: center;
+		}
+
+		.clock_outlook{
+			font-size: 150px;
+			margin: 5px 0 0 0;
+			padding: 10px;
+			color: #fbe6bd;
+			font-weight: bold;
+			text-align: center;
+		}
+
+		marquee img{
+			margin: 15px; 
+			margin-top: 50px;
+			border: 9px inset #fff;
+			opacity: 0.75;
+			-moz
+		} 
+
+		#footer{
+			background: #405580;
+			opacity: 0.7;
+			padding: 1% 0;
+			color: #fff;
+			overflow: auto;	
+			text-align: center;
+}
+
+		/*-------------------Media Queries----------------------*/
+        @media screen and (max-width: 740px) {
+            
+            body{
+            	background-image: url("images/media.jpg");
+            	background-repeat: no-repeat;
+            	background-size: 150%;
+            }
+
+            h1{
+			display: none;
+		   }
+
+			.clock_outlook{
+				font-size: 50px;
+				color: #000;
+				padding: 0;
+				margin: 4px;
+				margin-top: 100%;
+				border: 4px outset #fff;
+				border-top-right-radius:15px; 
+				border-bottom-left-radius:15px;
+			}
+
+			marquee img {
+			margin: 10px; 
+			border: 1px inset #fff;
+			width: 40%;
+		}
+
+		#footer{
+			background: #9eccf3;
+			width: 100%;
+			padding: 4% 4% 8% 4%;
+			color: #898989;
+			text-align: center;
+		}
+
+
+		}
